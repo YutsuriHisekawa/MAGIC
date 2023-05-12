@@ -1,253 +1,466 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+
 <head>
-  <link rel="icon" href="assets/img/logo.png">
-  <title>MAGIC</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content=" Madiun Genshin Impact Community">
-  <meta name="keywords" content="global, template, html, sass, jquery">
-  <meta name="author" content="Bucky Maler">
-  <link rel="stylesheet" href="assets/css/main.css">
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>MAGIC</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
 </head>
-<body>
 
-<!-- notification for small viewports and landscape oriented smartphones -->
-<div class="device-notification">
-  <a class="device-notification--logo" href="#0">
-    <img src="assets/img/logo.png" alt="Global">
-    <p>MAGIC</p>
-  </a>
-  <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
-</div>
+<body id="top">
 
-<div class="perspective effect-rotate-left">
-  <div class="container"><div class="outer-nav--return"></div>
-    <div id="viewport" class="l-viewport">
-      <div class="l-wrapper">
-        <header class="header">
-          <a class="header--logo" href="#">
-            <img src="assets/img/logo.png" alt="Global">
-            <p>magic</p>
-          </a>
-          
-          <div class="header--nav-toggle">
-            <span></span>
-          </div>
-        </header>
-        <nav class="l-side-nav">
-          <ul class="side-nav">
-            <li class="is-active"><span>Home</span></li>
-            <li><span>About</span></li>
-            <li><span>Rule</span></li>
-            <li><span>Requirements</span></li>
-            <li><span>Join Us</span></li>
-          </ul>
-        </nav>
-        <ul class="l-main-content main-content">
-          <li class="l-section section section--is-active">
-            <div class="wp2">
-            <div class="intro">
-              <div class="intro--banner">
-                <h1>MADIUN<br>GENSHIN<br>IMPACT<br>COMMUNITY</h1>
-                <a href="https://www.instagram.com/ae.tabibito/" style="color: white"> <button >Instagram
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                  <span class="btn-background"></span>
-                </button></a>
-                <img src="assets/img/about-visual.png" alt="Welcome">
-              </div>
-            </div>
-            </div>
-          </li>
-
-            <li class="l-section section">
-            <div class="wp1">
-            <div class="about">
-              <div class="about--banner">
-                <style type="text/css">
-                h2 {font-family: Orbitron;
-                  text-shadow: 4px 4px 6px #000000;}
-
-                  h3{text-shadow: rgb(0, 0, 0) 
-                    2px 0px 0px, rgb(0, 0, 0) 
-                    1.75517px 0.958851px 0px, rgb(0, 0, 0) 
-                    1.0806px 1.68294px 0px, rgb(0, 0, 0) 
-                    0.141474px 1.99499px 0px, rgb(0, 0, 0) 
-                    -0.832294px 1.81859px 0px, rgb(0, 0, 0) 
-                    -1.60229px 1.19694px 0px, rgb(0, 0, 0) 
-                    -1.97998px 0.28224px 0px, rgb(0, 0, 0) 
-                    -1.87291px -0.701566px 0px, rgb(0, 0, 0) 
-                    -1.30729px -1.5136px 0px, rgb(0, 0, 0) 
-                    -0.421592px -1.95506px 0px, rgb(0, 0, 0) 
-                    0.567324px -1.91785px 0px, rgb(0, 0, 0) 
-                    1.41734px -1.41108px 0px, rgb(0, 0, 0) 
-                    1.92034px -0.558831px 0px;
-                    font-size: 18px;
-                    font-weight: 700;
-                    font-style: italic;}
-                    
-                </style>
-                <h2>MAGIC<br></h2>
-                <h3>Merupakan wadah bagi para pemain Genshin Impact
-                  <br> Khususnya Region Madiun dan sekitarnya.
-                  <br> Baik dalam bidang GAME , ARTWORK , FANDOM , COSPLAY
-                  <br> dan semua hal tentang Genshin Impact.
-                </h3>
-              </div>
-            </div>
-            </div>
-          </li>
-
-          <li class="l-section section">
-            <div class="wp3">
-            <div class="about">
-              <div class="about--banner">
-                <style type="text/css">
-                h2 {font-family: Orbitron;
-                  text-shadow: 4px 4px 6px #000000;}
-
-                  h3{text-shadow: rgb(0, 0, 0) 
-                    2px 0px 0px, rgb(0, 0, 0) 
-                    1.75517px 0.958851px 0px, rgb(0, 0, 0) 
-                    1.0806px 1.68294px 0px, rgb(0, 0, 0) 
-                    0.141474px 1.99499px 0px, rgb(0, 0, 0) 
-                    -0.832294px 1.81859px 0px, rgb(0, 0, 0) 
-                    -1.60229px 1.19694px 0px, rgb(0, 0, 0) 
-                    -1.97998px 0.28224px 0px, rgb(0, 0, 0) 
-                    -1.87291px -0.701566px 0px, rgb(0, 0, 0) 
-                    -1.30729px -1.5136px 0px, rgb(0, 0, 0) 
-                    -0.421592px -1.95506px 0px, rgb(0, 0, 0) 
-                    0.567324px -1.91785px 0px, rgb(0, 0, 0) 
-                    1.41734px -1.41108px 0px, rgb(0, 0, 0) 
-                    1.92034px -0.558831px 0px;
-                    font-size: 18px;
-                    font-weight: 700;
-                    font-style: italic;}
-                    
-                </style>
-                <h2>Peraturan<br></h2>
-                <h3>- Saling menghargai satu sama lain 
-                  <br>- dilarang membawa masalah pribadi kedalam group atau komunitas
-                  <br>- OOT ? Boleh tapi sewajarnya ya mas bro 
-                  <br>- Berjualan , Izin Admin dahulu
-                  <br>- Tidak ada senioritas ataupun pemula , semua SEPUH 
-                  <br>- Dilarang keras melakukan SARA
-                  <br>- Dilarang mengirim Konten Dewasa berupa gambar , video maupun Link
-                </h3>
-              </div>
-            </div>
-            </div>
-          </li>
-
-          <li class="l-section section">
-            <div class="wp4">
-            <div class="about">
-              <div class="about--banner">
-                <style type="text/css">
-                h2 {font-family: Orbitron;
-                  text-shadow: 4px 4px 6px #000000;}
-
-                  h3{text-shadow: rgb(0, 0, 0) 
-                    2px 0px 0px, rgb(0, 0, 0) 
-                    1.75517px 0.958851px 0px, rgb(0, 0, 0) 
-                    1.0806px 1.68294px 0px, rgb(0, 0, 0) 
-                    0.141474px 1.99499px 0px, rgb(0, 0, 0) 
-                    -0.832294px 1.81859px 0px, rgb(0, 0, 0) 
-                    -1.60229px 1.19694px 0px, rgb(0, 0, 0) 
-                    -1.97998px 0.28224px 0px, rgb(0, 0, 0) 
-                    -1.87291px -0.701566px 0px, rgb(0, 0, 0) 
-                    -1.30729px -1.5136px 0px, rgb(0, 0, 0) 
-                    -0.421592px -1.95506px 0px, rgb(0, 0, 0) 
-                    0.567324px -1.91785px 0px, rgb(0, 0, 0) 
-                    1.41734px -1.41108px 0px, rgb(0, 0, 0) 
-                    1.92034px -0.558831px 0px;
-                    font-size: 18px;
-                    font-weight: 700;
-                    font-style: italic;}
-                    
-                </style>
-                <h2>Syarat Bergabung<br></h2>
-                  <h3>- Umur 15+
-                  <br>- Memiliki ketertarikan Terhadap Genshin Impact
-                  <br>- Mengetahui ke-2 nama MC Genshin Impact
-                  <br>- Mengetahui 5 nama Character Genshin Impact
-                  <br>- Mengetahui semua nama Archon Character Genshin Impact
-                  <br>- Berdomisili di Madiun dan sekitarnya
-                  <br>- Aktif dalam Berkomunitas
-                  <br>- Menggunakan nama asli saat mendaftar
-                </h3>
-              </div>
-            </div>
-            </div>
-          </li>
-
-          <li class="l-section section">
-          <div class="wp2">
-            <div class="hire">
-              <h2>Ingin Bergabung ?</h2>
-              <br>
-              <p>Jika setuju dengan semua Syarat dan  Peraturan yang ada maka Centang Box berikut ini!</p>
-              <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request" action="index1.html">
-                <div class="work-request--options">
-                  <span class="options-a">
-                    <input id="opt-1" type="checkbox" value="app design">
-                    <label for="opt-1">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                    Setuju dengan Syarat
-                    </label>
-                    <input id="opt-2" type="checkbox" value="graphic design">
-                    <label for="opt-2">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                    Setuju dengan Rule
-                    </label>
-                  </span>
-                  
-                </div>
-                <div class="work-request--information">
-                  <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
-                    <label for="name">Real Name</label>
-                  </div>
-                  <div class="information-email">
-                    <input id="number" type="text"  spellcheck="false">
-                    <label for="email">WhastApp</label>
-                  </div>
-                </div>
-                <input type="submit" value="JOIN NOW ! ">
-              </form>
-            </div>
-          </li>
-        </ul>
-      </div>
+    <div id="preloader">
+        <div id="loader"></div>
     </div>
-  </div>
-  <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li>About</li>
-    <li>Rule</li>
-    <li>Requirements</li>
-    <li>Join Us</li>
-  </ul>
-</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
+    <!-- site header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/FAHRIZAL.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll" href="#intro" title="intro">Intro</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll" href="#services" title="services">Rules</a></li>
+                <li><a class="smoothscroll" href="#requirements" title="services">Requirements</a></li>
+                <li><a class="smoothscroll" href="#contact" title="contact us">Join Us!</a></li>
+            </ul>
+
+            <ul class="header-social">
+                <li><a href="https://www.facebook.com/groups/1567775280375187" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/ae.tabibito/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://discord.gg/jXKqZnDcVu" target="_blank"><i class="fab fa-discord" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- intro
+    ================================================== -->
+    <section id="intro" class="s-intro target-section">
+
+        <div class="row intro-content">
+            
+
+            <div class="column large-9 mob-full intro-text">
+                <style type="text/css">
+                h3 {font-family: M PLUS Code Latin;}
+                </style>
+
+                <h3>MAGIC</h3>
+                <h1>
+                    Madiun Genshin Impact Community
+                </h1>
+            </div>
+
+            <div class="intro-scroll">
+                <a href="#about" class="intro-scroll-link smoothscroll">
+                    Scroll For More
+                </a>
+            </div>
+
+            <div class="intro-grid"></div>
+            <div class="intro-pic"></div>
+
+        </div> <!-- end row -->
+
+    </section> <!-- end intro -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="about-me">
+
+            <div class="row heading-block" data-aos="fade-up">
+                <div class="column large-full">
+                    <h2 class="section-heading">About MAGIC</h2>
+                </div>
+            </div>
+
+            <div class="row about-me__content" data-aos="fade-up">
+                <div class="column large-full about-me__text">
+                    <p class="lead">
+                    MADIUN GENSHIN IMPACT COMMUNITY 
+                    </p>
+                    <p>
+                        MERUPAKAN WADAH BAGI PARA PEMAIN GENSHIN IMPACT KHUSUSNYA REGION KOTA MADIUN DAN SEKITARNYA
+                        BAIK DALAM BIDANG GAME NYA , ARTWORK , FANDOM , COSPLAYER GESNHIN , DAN SEMUA HAL TENTANG
+                        GENSHIN IMPACT.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="row about-me__buttons">
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=fahrizaljulianadam@gmail.com" 
+                    target="_blank" 
+                    class="btn btn--stroke full-width">Join Us !</a>
+                </div>
+                <div class="column large-half tab-full" data-aos="fade-up">
+                    <a href="#0" class="btn btn--primary full-width">Join Us !</a>
+                </div>
+            </div>
+
+        </div> <!-- end about-me -->
+
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services ss-dark target-section">
+
+        <div class="shadow-overlay"></div>
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">RULES</h2>
+
+                <p class="section-desc">
+                Peraturan dibuat untuk menjaga ketertiban dan kenyemanan Komunitas MAGIC ! 
+                <br>Serta dibuat untuk menghidari hal hal yang berbau drama,
+                mari ciptakan sebuah komunitas yang bersih dan kondusif.
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="row services-list block-large-1-3 block-medium-1-2 block-tab-full">
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Saling Menghargai Satu Sama Lain.</h4>
+                    <p>
+                    Di dalam komunitas MAGIC kami harap kalian untuk saling Menghargai Member yang lain, 
+                    jangan saling menjatuhkan ataupun saling melukai.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Tidak Ada Drama!</h4>
+                    <p>
+                        Untuk para penghuni komunitas MAGIC maupun member dan admin 
+                        dilarang keras untuk membuat masalah didalam group atau membuat 
+                        nama komunitas menjadi buruk dimata masyarakat atau komunitas lain.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">No Promotion!</h4>
+                    <p>
+                        Jika kalian ingin melakukan promosi atau berjualan sifat nya boleh , namun 
+                        harus ada izin admin terlebih dahulu , bila tidak ada izin admin  mohon maaf 
+                        akan kami delete pesan promotion tersebut!.
+                    </p>
+                </div>
+            </div>
+
+                <div class="column item-service" data-aos="fade-up">
+                    <div class="item-service__content">
+                        <h4 class="item-title">No Adult Content</h4>
+                        <p>
+                            Dilarang keras untuk mengirimkan content yang berbau pornografi 
+                            hentai , video porno  , link porno , 
+                            foto dewasa dsb nya yang berbau 18+ ADULT CONTENT.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column item-service" data-aos="fade-up">
+                        <div class="item-service__content">
+                            <h4 class="item-title">Dilarang Toxic</h4>
+                            <p>
+                                Dilarang untuk toxic , karena komunitas ini bersifat friendly 
+                                banyak orang yang mungkin mudah tersinggung dan sebagainya jadi teman teman 
+                                harap jaga tutur kata bahasa didalam komunitas MAGIC ini!
+                            </p>
+                        </div>
+                </div>
+                        <div class="column item-service" data-aos="fade-up">
+                            <div class="item-service__content">
+                                <h4 class="item-title">Tidak ada Rasisme dan Sara </h4>
+                                <p>
+                                    Harap saling menghormati sesama
+                                    tidak memperlakukan nya dengan berbeda dengan Rasis ataupun melakukan sara .
+                                </p>
+                            </div>
+                        </div>
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+    <!-- services
+    ================================================== -->
+    <section id="requirements" class="s-works ss-dark target-section">
+
+        <div class="shadow-overlay"></div>
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading1 section-heading1--centerbottom">Requirements</h2>
+
+                <p class="section-desc1">
+                    Requirements atau persyaratan untuk bergabung 
+                    dengan komunitas <br>MAGIC ( Madiun Genshin Impact Community )
+                    Harap untuk dibaca serta dipahami sebelum bergabung dengan kami! 
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="row services-list block-large-1-3 block-medium-1-2 block-tab-full">
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Umur 15+</h4>
+                    <p>
+                    Untuk kalian yang berusia dibawah 15+ kami meminta maaf 
+                    bahwa kalian belum dapat bergabung dengan kami :(
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Tertarik dengan Genshin Impact</h4>
+                    <p>
+                    Memiliki ketertarikan dan rasa tertarik dengan Game buatan 
+                    Hoyoverse ( GENSHIN IMPACT ) terhadap kalian yang sudah bermain
+                    genshin maupun yang belum bermain!
+                    </p>
+                </div>
+            </div>
+
+            <div class="column item-service" data-aos="fade-up">
+                <div class="item-service__content">
+                    <h4 class="item-title">Regional Only</h4>
+                    <p>
+                        Untuk kalian yang berada diluar wilayah yang jauh dari REGION 
+                        Kota Madiun kalian belum dapat untuk bergabung ke dalam komunitas kami.
+                        Terkecuali kalian sering mengikuti Event event di madiun atau sering 
+                        bermain ke Kota madiun.
+                    </p>
+                </div>
+            </div>
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- CTA
+    ================================================== -->
+
+    <!-- testimonies
+    ================================================== -->
+    <section class="s-testimonials">
+
+        <div class="row testimonials" data-aos="fade-up">
+
+            <div class="column large-full testimonials__slider">
+
+                <div class="testimonials__slide">
+                    <p>Wahhh ada komunitas Genshin Di madiun ya ?? 
+                        saya baru tau , ternyata member nya asyik dan seru komunitas nya ayo bergabung teman teman !.</p>
+                    <div class="testimonials__info">
+                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                        <cite class="testimonials__cite">
+                            <strong>Tim Cook</strong>
+                            <span>CEO, Apple</span>
+                        </cite>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+
+                <div class="testimonials__slide">
+                    <p>Waduuuhh , mengapa saya tidak mengatahui nya dari dulu ya bila ada Komunitas Genshin Impact Di Madiun, 
+                        Ketika saya bergabung dengan Komunitas ini saya jadi sering bermain Genshin Impact !
+                    </p>
+                    <div class="testimonials__info">
+                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                        <cite class="testimonials__cite">
+                            <strong>Sundar Pichai</strong>
+                            <span>CEO, Google</span>
+                        </cite>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+
+                <div class="testimonials__slide">
+                    <p>Saya tidak mengira bila ada komunitas Genshin Impact Di Kota Madiun
+                        Ini ada permainan atau game terbaik yang pernah saya mainkan 
+                        apalagi fandom di Kota Madiun ini sangat aktif dan ramah !
+                    </p>
+                    <div class="testimonials__info">
+                        <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonials__avatar">
+                        <cite class="testimonials__cite">
+                            <strong>Satya Nadella</strong>
+                            <span>CEO, Microsoft</span>
+                        </cite>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </section> <!-- end s-testimonials -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact ss-dark target-section">
+
+        <div class="row heading-block" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading">Work Hard, Play Hard !</h2>
+            </div>
+        </div>
+
+        <div class="row contact-main" data-aos="fade-up">
+            <div class="column large-full">
+                <p class="contact-email">
+                    <a>Join Us !</a>
+                </p>
+                <p class="section-desc">
+                I'm glad you want to join us!
+                if you want to join us please contact the following admin!
+                <br><BR>
+                FORMAT JOIN TO COMMUNITY
+                <br>
+                REAL NAME :
+                <BR>
+                    AGE :
+                <BR>
+                    GENDER : 
+                <BR>
+                    REGION :
+                <BR> 
+                    REASON :
+                </p>
+            </div>
+        </div>
+
+        <div class="row contact-infos" data-aos="fade-up" data-aos-anchor=".contact-main">
+
+            <div class="column large-5 medium-full contact-phone">
+                <h4>Admin 1</h4>
+                <a href="https://wa.me/+6288217887183" target="_blank" >Alfian Innas </a>
+            </div>
+
+            <div class="column large-7 medium-full contact-social">
+                <h4>Admin 2</h4>
+                <ul>
+                    <a href="https://wa.me/+6287728391877" target="_blank" > Fauzilion </a>
+                </ul>
+            </div>
+
+        </div> <!-- end contact-infos -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="column large-full ss-copyright">
+                <span>MAGIC</span>
+            </div>
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
+                        title="Share"></button> <button class="pswp__button pswp__button--fs"
+                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
+                        title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
-</html>
